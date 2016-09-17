@@ -34,22 +34,19 @@ class ViewController: UICollectionViewController , WaterFlowViewLayoutDelegate{
         // Do any additional setup after loading the view, typically from a nib.
     }
     func waterFlowViewLayout(waterFlowViewLayout: LWFlowWaterLayout, heightForWidth: CGFloat, atIndextPath: NSIndexPath) -> CGFloat {
-        
+        print("-----------height-----------")
         return CGFloat(100 + arc4random_uniform(80))
     }
     override func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        return   500
+        return   40
     }
     override func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
         let  cell = collectionView.dequeueReusableCell(withReuseIdentifier: reuseidentify, for: indexPath)
-        cell.backgroundColor = UIColor.black
+        cell.backgroundColor = UIColor.white
         
         return  cell
     }
-    override func collectionView(_ collectionView: UICollectionView, willDisplay cell: UICollectionViewCell, forItemAt indexPath: IndexPath) {
-        let  cell = collectionView.cellForItem(at: indexPath)
-        cell?.setNeedsLayout()
-    }
+   
    
     
     
