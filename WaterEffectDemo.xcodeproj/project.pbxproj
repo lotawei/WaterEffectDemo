@@ -9,19 +9,35 @@
 /* Begin PBXBuildFile section */
 		ED7C9F481D8D5C7C00A389D4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7C9F471D8D5C7C00A389D4 /* AppDelegate.swift */; };
 		ED7C9F4A1D8D5C7C00A389D4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7C9F491D8D5C7C00A389D4 /* ViewController.swift */; };
-		ED7C9F4D1D8D5C7C00A389D4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED7C9F4B1D8D5C7C00A389D4 /* Main.storyboard */; };
 		ED7C9F4F1D8D5C7C00A389D4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ED7C9F4E1D8D5C7C00A389D4 /* Assets.xcassets */; };
 		ED7C9F521D8D5C7C00A389D4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ED7C9F501D8D5C7C00A389D4 /* LaunchScreen.storyboard */; };
+		ED7C9F5A1D8D5CE000A389D4 /* LWFlowWaterLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7C9F591D8D5CE000A389D4 /* LWFlowWaterLayout.swift */; };
+		ED7C9F5C1D8D698E00A389D4 /* UIColor+extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7C9F5B1D8D698E00A389D4 /* UIColor+extention.swift */; };
+		ED7C9F5E1D8D7CA400A389D4 /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7C9F5D1D8D7CA400A389D4 /* CustomCollectionViewCell.swift */; };
+		ED7C9F601D8D7D5D00A389D4 /* UIImage+extion.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED7C9F5F1D8D7D5D00A389D4 /* UIImage+extion.swift */; };
+		ED7C9F651D8D7E1900A389D4 /* 0.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED7C9F611D8D7E1900A389D4 /* 0.jpg */; };
+		ED7C9F661D8D7E1900A389D4 /* 1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED7C9F621D8D7E1900A389D4 /* 1.jpg */; };
+		ED7C9F671D8D7E1900A389D4 /* 2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED7C9F631D8D7E1900A389D4 /* 2.jpg */; };
+		ED7C9F681D8D7E1900A389D4 /* 3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = ED7C9F641D8D7E1900A389D4 /* 3.jpg */; };
+		ED7C9F6A1D8D93FA00A389D4 /* Screenshot_1.png in Resources */ = {isa = PBXBuildFile; fileRef = ED7C9F691D8D93FA00A389D4 /* Screenshot_1.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		ED7C9F441D8D5C7C00A389D4 /* WaterEffectDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WaterEffectDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ED7C9F471D8D5C7C00A389D4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ED7C9F491D8D5C7C00A389D4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		ED7C9F4C1D8D5C7C00A389D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		ED7C9F4E1D8D5C7C00A389D4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ED7C9F511D8D5C7C00A389D4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ED7C9F531D8D5C7C00A389D4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		ED7C9F591D8D5CE000A389D4 /* LWFlowWaterLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LWFlowWaterLayout.swift; sourceTree = "<group>"; };
+		ED7C9F5B1D8D698E00A389D4 /* UIColor+extention.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+extention.swift"; sourceTree = "<group>"; };
+		ED7C9F5D1D8D7CA400A389D4 /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		ED7C9F5F1D8D7D5D00A389D4 /* UIImage+extion.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIImage+extion.swift"; sourceTree = "<group>"; };
+		ED7C9F611D8D7E1900A389D4 /* 0.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 0.jpg; sourceTree = "<group>"; };
+		ED7C9F621D8D7E1900A389D4 /* 1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 1.jpg; sourceTree = "<group>"; };
+		ED7C9F631D8D7E1900A389D4 /* 2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 2.jpg; sourceTree = "<group>"; };
+		ED7C9F641D8D7E1900A389D4 /* 3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.jpg; sourceTree = "<group>"; };
+		ED7C9F691D8D93FA00A389D4 /* Screenshot_1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Screenshot_1.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +54,8 @@
 		ED7C9F3B1D8D5C7C00A389D4 = {
 			isa = PBXGroup;
 			children = (
+				ED7C9F5D1D8D7CA400A389D4 /* CustomCollectionViewCell.swift */,
+				ED7C9F691D8D93FA00A389D4 /* Screenshot_1.png */,
 				ED7C9F461D8D5C7C00A389D4 /* WaterEffectDemo */,
 				ED7C9F451D8D5C7C00A389D4 /* Products */,
 			);
@@ -56,10 +74,16 @@
 			children = (
 				ED7C9F471D8D5C7C00A389D4 /* AppDelegate.swift */,
 				ED7C9F491D8D5C7C00A389D4 /* ViewController.swift */,
-				ED7C9F4B1D8D5C7C00A389D4 /* Main.storyboard */,
+				ED7C9F591D8D5CE000A389D4 /* LWFlowWaterLayout.swift */,
 				ED7C9F4E1D8D5C7C00A389D4 /* Assets.xcassets */,
+				ED7C9F611D8D7E1900A389D4 /* 0.jpg */,
+				ED7C9F621D8D7E1900A389D4 /* 1.jpg */,
+				ED7C9F631D8D7E1900A389D4 /* 2.jpg */,
+				ED7C9F641D8D7E1900A389D4 /* 3.jpg */,
 				ED7C9F501D8D5C7C00A389D4 /* LaunchScreen.storyboard */,
 				ED7C9F531D8D5C7C00A389D4 /* Info.plist */,
+				ED7C9F5B1D8D698E00A389D4 /* UIColor+extention.swift */,
+				ED7C9F5F1D8D7D5D00A389D4 /* UIImage+extion.swift */,
 			);
 			path = WaterEffectDemo;
 			sourceTree = "<group>";
@@ -123,9 +147,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED7C9F6A1D8D93FA00A389D4 /* Screenshot_1.png in Resources */,
+				ED7C9F651D8D7E1900A389D4 /* 0.jpg in Resources */,
+				ED7C9F661D8D7E1900A389D4 /* 1.jpg in Resources */,
+				ED7C9F671D8D7E1900A389D4 /* 2.jpg in Resources */,
+				ED7C9F681D8D7E1900A389D4 /* 3.jpg in Resources */,
 				ED7C9F521D8D5C7C00A389D4 /* LaunchScreen.storyboard in Resources */,
 				ED7C9F4F1D8D5C7C00A389D4 /* Assets.xcassets in Resources */,
-				ED7C9F4D1D8D5C7C00A389D4 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,7 +164,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ED7C9F5C1D8D698E00A389D4 /* UIColor+extention.swift in Sources */,
+				ED7C9F5E1D8D7CA400A389D4 /* CustomCollectionViewCell.swift in Sources */,
 				ED7C9F4A1D8D5C7C00A389D4 /* ViewController.swift in Sources */,
+				ED7C9F5A1D8D5CE000A389D4 /* LWFlowWaterLayout.swift in Sources */,
+				ED7C9F601D8D7D5D00A389D4 /* UIImage+extion.swift in Sources */,
 				ED7C9F481D8D5C7C00A389D4 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -144,14 +176,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		ED7C9F4B1D8D5C7C00A389D4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				ED7C9F4C1D8D5C7C00A389D4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		ED7C9F501D8D5C7C00A389D4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,6 +321,7 @@
 				ED7C9F581D8D5C7C00A389D4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
